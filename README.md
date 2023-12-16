@@ -1,10 +1,11 @@
 # ASRock Z790M-ITX WiFi EFI
 EFI for the ASRock Z790M-ITX WiFi with OpenCore 0.9.7.
-macOS Sonoma 14.1.2 installed.
-*BIOS Version:* 9.01.
-*Processor:* i7-14700K.
 
-** Note: This is still a work in progress and configuration settings are likely to change very drastically **
+* **BIOS Version:** 9.01
+* **macOS Version:** Sonoma 14.1.2
+* **Processor:** i7-14700K
+
+_**Note: This is still a work in progress and configuration settings are likely to change very drastically.**_
 
 ### Current Status
 * Boots.
