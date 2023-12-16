@@ -7,25 +7,35 @@ EFI for the ASRock Z790M-ITX WiFi with OpenCore 0.9.7.
 
 _**Note: This is still a work in progress and configuration settings are likely to change very drastically.**_
 
-### Current Status
+## Current Status
 * Boots.
 * No graphics acceleration with iGPU.
 
-### BIOS Settings
-#### Enabled
-* Clever Access Memory (Resizable BAR)
-* Intel VT-d
-* Intel Virtulisation Techology
-* SATA Operation: AHCI
-* XHCI Hand-off
+## BIOS Settings
 
-#### Disabled
-* Secure Boot
-* Fast Boot
-* CFG Lock
-* CSM Compatibility
+### Enabled
+| Setting                       | Where?                           |
+| ----------------------------- | -------------------------------- |
+| Above 4G Decoding             | Advanced \ Chipset Configuration |
+| C.A.M. Clever Access Memory*  | Advanced \ Chipset Configuration |
+| VT-d                          | Advanced \ Chipset Configuration |
+| Intel Virtulization Techology | Advanced \ CPU Configuration     |
+| SATA Mode Selection: AHCI     | Advanced \ Storage Configuration | 
+| XHCI Hand-off                 | Advanced \ USB Configuration     |
 
-### Hardware
+\* Clever Access Memory refers to Resizable BAR
+
+### Disabled
+| Setting              | Where?                       |
+| -------------------- | ---------------------------- |
+| CFG Lock             | Advanced \ CPU Configuration |
+| CSM                  | Boot                         |
+| Fast Boot            | Boot                         |
+| Intel Platform Trust | Security                     |
+| Secure Boot          | Security                     |
+
+
+## Hardware
 | Component        | Model                                      |
 | ---------------- | ------------------------------------------ |
 | CPU              | Intel Core i7-14700K                       |
