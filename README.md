@@ -28,12 +28,13 @@ _**Note: This is still a work in progress and configuration settings are likely 
 ### Disabled
 | Setting              | Where?                       |
 | -------------------- | ---------------------------- |
-| CFG Lock             | Advanced \ CPU Configuration |
+| CFG Lock**           | Advanced \ CPU Configuration |
 | CSM                  | Boot                         |
 | Fast Boot            | Boot                         |
 | Intel Platform Trust | Security                     |
 | Secure Boot          | Security                     |
 
+\** Can be found after enabling **CPU C States Support**.
 
 ## Hardware
 | Component        | Model                                      |
