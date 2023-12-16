@@ -40,7 +40,7 @@ _**Note: This is still a work in progress and configuration settings are likely 
 | Component        | Model                                      |
 | ---------------- | ------------------------------------------ |
 | CPU              | Intel Core i7-14700K                       |
-| Motherboard      | ASRock z790M-ITX WiFi                      |
+| Motherboard      | ASRock Z790M-ITX WiFi                      |
 | RAM              | 32GB (2 x 16GB) Crucial Pro RAM @ 5200MT/s |
 | GPU              | N/A (in transit)                           |
 | OS Disk          | WD_BLACK SN850X 1TB                        |
