@@ -14,14 +14,14 @@ _**Note: This is still a work in progress and configuration settings are likely 
 ## BIOS Settings
 
 ### Enabled
-| Setting                       | Where?                           |
-| ----------------------------- | -------------------------------- |
-| Above 4G Decoding             | Advanced \ Chipset Configuration |
-| C.A.M. Clever Access Memory*  | Advanced \ Chipset Configuration |
-| VT-d                          | Advanced \ Chipset Configuration |
-| Intel Virtulization Techology | Advanced \ CPU Configuration     |
-| SATA Mode Selection: AHCI     | Advanced \ Storage Configuration | 
-| XHCI Hand-off                 | Advanced \ USB Configuration     |
+| Setting                        | Where?                           |
+| ------------------------------ | -------------------------------- |
+| Above 4G Decoding              | Advanced \ Chipset Configuration |
+| C.A.M. Clever Access Memory*   | Advanced \ Chipset Configuration |
+| VT-d                           | Advanced \ Chipset Configuration |
+| Intel Virtualization Techology | Advanced \ CPU Configuration     |
+| SATA Mode Selection: AHCI      | Advanced \ Storage Configuration | 
+| XHCI Hand-off                  | Advanced \ USB Configuration     |
 
 \* Clever Access Memory refers to Resizable BAR
 
