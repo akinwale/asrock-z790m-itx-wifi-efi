@@ -11,6 +11,27 @@ _**Note: This is still a work in progress and configuration settings are likely 
 * Boots.
 * No graphics acceleration with iGPU.
 
+## USB Port Mapping
+Ports mapped using Hackintool. The system case is a Lian Li Dan A4-H2O case with a front panel having only 1 USB-C port and 1 USB A port, so all ports are functional. 16 ports are listed below, but I disabled the LED Controller port since I have no LEDs connected. The descriptions in the table are only for some important observations made when mapping. All other ports are on the motherboard, unless otherwise specified.
+| Port | Description                                         |
+|------|-----------------------------------------------------|
+| HS01 | Front panel USB-C with a USB2 device connected      |
+| HS03 | Front panel USB-A with a USB2 device connected      |
+| HS04 | Motherboard USB 2 port (black)                      |
+| HS05 |                                                     |
+| HS06 | Motherboard USB-C port with a USB2 device connected |
+| HS07 | Should be a USB 3 port on the motherboard? However, only got USB2 speeds with a USB3 flash drive connected.           |
+| HS09 |                                                     |
+| HS10 |                                                     |
+| HS13 | LED Controller. Disabled this.                      |
+| HS14 | IOUSBHostDevice                                     |
+| SS01 | Motherboard USB-C port with a USB3 device connected |
+| SS03 |                                                     |
+| SS04 |                                                     |
+| SS05 |                                                     |
+| SS06 | Front panel USB-C with a USB3 device connected      |
+| SS08 | Front panel USB-A with a USB3 device connected      |
+
 ## BIOS Settings
 
 ### Enabled
