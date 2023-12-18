@@ -62,7 +62,7 @@ Ports mapped using Hackintool. The system case is a Lian Li Dan A4-H2O case with
 | ---------------- | ------------------------------------------ |
 | CPU              | Intel Core i7-14700K                       |
 | Motherboard      | ASRock Z790M-ITX WiFi                      |
-| RAM              | 32GB (2 x 16GB) Crucial Pro RAM @ 5200MT/s |
+| RAM              | 32GB (2 x 16GB) Crucial Pro RAM @ 5600MT/s |
 | GPU              | N/A (in transit)                           |
 | OS Disk          | WD_BLACK SN850X 1TB                        |
-| WiFi / Bluetooth | on-board Intel*                            |
+| WiFi / Bluetooth | Intel Wi-Fi 6E AX211                       |
