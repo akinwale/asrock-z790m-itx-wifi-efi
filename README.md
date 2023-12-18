@@ -20,11 +20,11 @@ Ports mapped using Hackintool. The system case is a Lian Li Dan A4-H2O case with
 | HS04 | Motherboard USB 2 port (black)                      |
 | HS05 |                                                     |
 | HS06 | Motherboard USB-C port with a USB2 device connected |
-| HS07 | Should be a USB 3 port on the motherboard? However, only got USB2 speeds with a USB3 flash drive connected.           |
+| HS07 | Should be a USB 3 port on the motherboard? However, only got USB2 speeds with a USB3 flash drive connected.                                       |
 | HS09 |                                                     |
 | HS10 |                                                     |
-| HS13 | LED Controller. Disabled this.                      |
-| HS14 | IOUSBHostDevice                                     |
+| HS13 | LED Controller. Disabled.                           |
+| HS14 | IOUSBHostDevice (Bluetooth)                         |
 | SS01 | Motherboard USB-C port with a USB3 device connected |
 | SS03 |                                                     |
 | SS04 |                                                     |
