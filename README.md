@@ -5,11 +5,17 @@ EFI for the ASRock Z790M-ITX WiFi with OpenCore 0.9.7.
 * **macOS Version:** Sonoma 14.1.2
 * **Processor:** i7-14700K
 
-_**Note: This is still a work in progress and configuration settings are likely to change very drastically.**_
+## Notes
+* Add -v to boot args for verbose boot.
+* Remember to run GenSMBIOS on the `config.plist` file.
+* Better numbers on Geekbench 6 with iMacPro1,1 compared to MacPro7,1.
 
 ## Current Status
 * Boots.
-* No graphics acceleration with iGPU.
+* Audio works.
+* Bluetooth works.
+* Wi-Fi works.
+* Ethernet works.
 
 ## USB Port Mapping
 Ports mapped using Hackintool. The system case is a Lian Li Dan A4-H2O case with a front panel having only 1 USB-C port and 1 USB A port, so all ports are functional. 16 ports are listed below, but I disabled the LED Controller port since I have no LEDs connected. The descriptions in the table are only for some important observations made when mapping. All other ports are on the motherboard, unless otherwise specified.
@@ -63,6 +69,6 @@ Ports mapped using Hackintool. The system case is a Lian Li Dan A4-H2O case with
 | CPU              | Intel Core i7-14700K                       |
 | Motherboard      | ASRock Z790M-ITX WiFi                      |
 | RAM              | 32GB (2 x 16GB) Crucial Pro RAM @ 5600MT/s |
-| GPU              | N/A (in transit)                           |
+| GPU              | PowerColor AMD Radeon RX 6800 XT 16GB      |
 | OS Disk          | WD_BLACK SN850X 1TB                        |
 | WiFi / Bluetooth | Intel Wi-Fi 6E AX211                       |
