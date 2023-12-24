@@ -70,5 +70,6 @@ Ports mapped using Hackintool. The system case is a Lian Li Dan A4-H2O case with
 | Motherboard      | ASRock Z790M-ITX WiFi                      |
 | RAM              | 32GB (2 x 16GB) Crucial Pro RAM @ 5600MT/s |
 | GPU              | PowerColor AMD Radeon RX 6800 XT 16GB      |
-| OS Disk          | WD_BLACK SN850X 1TB                        |
+| OS Drive         | WD_BLACK SN850X 1TB                        |
+| Audio            | Realtek ALC897                             |
 | WiFi / Bluetooth | Intel Wi-Fi 6E AX211                       |
