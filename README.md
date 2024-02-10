@@ -2,7 +2,7 @@
 EFI for the ASRock Z790M-ITX WiFi with OpenCore 0.9.7.
 
 * **BIOS Version:** 9.01
-* **macOS Version:** Sonoma 14.2.1
+* **macOS Version:** Sonoma 14.3.1
 * **Processor:** i7-14700K
 
 ## Kexts
@@ -23,7 +23,7 @@ EFI for the ASRock Z790M-ITX WiFi with OpenCore 0.9.7.
 * WhateverGreen.kext
 
 ## Notes
-* Initial Sonoma version was 14.1.2. To allow System Updates to successfully install (incremental), disable BlueToolFixup.kext and then re-enable after the update is complete.
+* Initial Sonoma version was 14.1.2. Updated to 14.2.1 and 14.3. Had to disable `BlueToolFixup.kext` and then re-enable afterwards for both incremental updates. Incremental update from 14.3 to 14.3.1 did not require disabling `BlueToolFixup.kext`.
 * Add -v to boot args for verbose boot.
 * Remember to run GenSMBIOS on the `config.plist` file.
 * Better numbers on Geekbench 6 with iMacPro1,1 compared to MacPro7,1.
